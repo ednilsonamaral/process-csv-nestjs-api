@@ -11,6 +11,7 @@ import constants from '../config/constants';
   imports: [
     ConfigModule.forRoot({
       load: [constants],
+      isGlobal: true,
     }),
     CsvModule,
   ],
